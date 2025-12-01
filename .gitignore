@@ -1,0 +1,9 @@
+*
+
+# Include
+!src/
+!src/*
+#!README.md
+!build.zig
+!build.zig.zon
+!.gitignore
