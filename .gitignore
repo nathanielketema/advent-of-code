@@ -3,7 +3,7 @@
 # Include
 !src/
 !src/*
-#!README.md
+!README.md
 !build.zig
 !build.zig.zon
 !.gitignore
