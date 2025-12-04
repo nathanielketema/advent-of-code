@@ -16,7 +16,7 @@ pub fn main() !void {
 
     const cwd = std.fs.cwd();
     for (argv[1..]) |arg| {
-        const file = cwd.openFile(arg, .{ .mode = .read_write }) catch |err| {
+        const file = cwd.openFile(arg, .{ .mode = .read_only }) catch |err| {
             std.debug.print("{any} \n", .{err});
             return;
         };
