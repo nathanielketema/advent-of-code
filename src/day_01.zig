@@ -20,6 +20,7 @@ pub fn main() !void {
             std.debug.print("{any} \n", .{err});
             return;
         };
+        defer file.close();
         std.debug.print("---Part 1---\n", .{});
         try part_1(file);
         std.debug.print("---Part 2---\n", .{});
