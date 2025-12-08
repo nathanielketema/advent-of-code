@@ -88,5 +88,3 @@ pub fn part_2(file: File) !void {
     }
     std.debug.print("Total Output Joltage: {d}\n", .{total_output_joltage});
 }
-
-test "day-03" {}

@@ -136,6 +136,3 @@ pub fn part_2(arena: Allocator, file: File) !void {
     }
     std.debug.print("Max rolls: {d}\n", .{max_rolls});
 }
-
-test "day-04" {}
-

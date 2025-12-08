@@ -5,28 +5,14 @@
 1. Clone the repository:
 
    ```console
-   git clone https://github.com/nathanielketema/advent-of-code-zig.git
+   git clone https://github.com/nathanielketema/advent-of-code.git
    ```
 
-2. Change directory:
+2. Run any of the solutions. Example:
 
    ```console
-   cd src
+   zig run src/day_01.zig -- data/day_01.txt
    ```
-
-3. Run any of the solutions. Example:
-
-   ```console
-   zig run day_01.zig -- args
-   ```
-
-## Testing
-
-You can test all solutions by running:
-
-```console
-zig build test
-```
 
 ## References
 

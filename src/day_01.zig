@@ -97,5 +97,3 @@ pub fn part_2(file: File) !void {
     }
     std.debug.print("Password: {d}\n", .{password});
 }
-
-test "day-01" {}
